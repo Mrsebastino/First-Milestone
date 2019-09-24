@@ -1,2 +1,3 @@
-the website is intended to give new customer the assurance of the level of professionalism. 
- <h1> this is the head title <h1>
+<h1> Private Chef Escoffier<h1>
+
+<h4> First Milesotne. User Centic Frontend Development. Code Institute.<h4>
