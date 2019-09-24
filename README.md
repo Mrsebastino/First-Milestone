@@ -6,5 +6,5 @@ The website include a description of the chef, his study and work experience,<br
 example of dishes with photos and a contact form.
 
 <h3> Demo </h3>
-A live demo can be found by here.[a link](https://code-institute-solutions.github.io)
+A live demo can be found by here.[a link]
 
