@@ -1,1 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Mansalva:100,200,300,400,500,600,700');
+
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+.container-title {
+    font-family: 'Mansalva', sans-serif;
+    font-size: 80px;
+    color: #ffe007;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+
+
+.container-header {
+    height: 100vh;
+    background: url("../images/blur-chef-cooking-2403392.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
