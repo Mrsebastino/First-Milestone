@@ -3,6 +3,9 @@
 .body {
     font-family: 'Roboto', sans-serif;
 }
+
+/*---------Header------*/
+
 .container-title {
     font-family: 'Mansalva', sans-serif;
     font-size: 80px;
@@ -11,8 +14,6 @@
     margin-left: 35px;
 }
 
-
-
 .container-header {
     height: 100vh;
     background: url("../images/blur-chef-cooking-2403392.jpg") no-repeat center center fixed;
@@ -20,4 +21,8 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    padding: 0,0;
 }
+
+/*---------Navbar------*/
+
