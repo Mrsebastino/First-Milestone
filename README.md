@@ -6,5 +6,10 @@ The website include a description of the chef, his study and work experience,<br
 example of dishes with photos and a contact form.
 
 <h3> Demo </h3>
-A live demo can be found by here.[a link]
+A live demo can be found by here.[a link]()
+
+<h3>ux</h3>
+My intent with this website was to make it simple to use, attractive and showcase<br>
+the experience and the reliability of the private chef.
+
 
