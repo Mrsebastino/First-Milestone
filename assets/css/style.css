@@ -8,9 +8,10 @@
 
 .container-title {
     font-family: 'Mansalva', sans-serif;
-    font-size: 80px;
+    font-size: 100px;
     color: #ffe007;
-    margin-top: 30px;
+    text-align: center;
+    margin-top: 50px;
     margin-left: 35px;
 }
 
@@ -21,8 +22,32 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding: 0,0;
 }
 
 /*---------Navbar------*/
 
+
+
+.nav-link-logo {
+    font-family: 'Mansalva', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -webkit-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+    color: #ffe007;
+    text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.dropdown-menu {
+    color: #fff;
+}
