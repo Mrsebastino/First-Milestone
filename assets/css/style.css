@@ -28,16 +28,12 @@
 
 .container-title {
     font-family: 'Mansalva', sans-serif;
+    text-align: center;
     font-size: 100px;
     color: #ffe007;
 }
 
 /*---------Navbar------*/
-
-.navbar {
-    margin-top: 0;
-    margin-left: 0;
-}  
 
 .nav-link-logo {
     font-family: 'Mansalva', sans-serif;
