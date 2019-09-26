@@ -4,25 +4,27 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
 /*---------Header------*/
 
 .container-fluid {
+    width: 100%;
     padding-left: 0;
     padding-right: 0;
+    overflow: hidden;
+    overflow-y: hidden;
 }
 
-  
 .container-landing-page {
     height:100vh;
+    width: 100%;
     background: url("../images/blur-chef-cooking-2403392.jpg") no-repeat center fixed;
     background-attachment: scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding: 0;
-    
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .container-title {
@@ -109,5 +111,4 @@
    -moz-transition: all 0.5s ease-in-out;
    -webkit-transition: all 0.5s ease-in-out;
    -o-transition: all 0.5s ease-in-out;
-    
 }
