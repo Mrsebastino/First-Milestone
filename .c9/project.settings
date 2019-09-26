@@ -1,8 +1,12 @@
 {
+    "find.nak": {
+        "@searchLimit": 500
+    },
     "instance": {
         "@automaticShutdown": "30"
     },
     "language": {
+        "@unusedFunctionArgs": false,
         "tern_defs": {
             "json()": {
                 "browser": {
