@@ -29,7 +29,7 @@
 .container-title {
     font-family: 'Mansalva', sans-serif;
     text-align: center;
-    font-size: 100px;
+    font-size: 80px;
     color: #ffe007;
 }
 
@@ -101,18 +101,32 @@
     padding: 0;
 }
 
-.logo-footer {
-    margin-left: 20px;
+.logo-footer-link:hover {
+    color: #ffe007;
+    text-decoration: none;
+}
+
+.logo-footer a {
     font-family: 'Mansalva', sans-serif;
     font-size: 20px;
     color: #fff;
+    margin-left: 50px;
     transition: all 0.5s ease-in-out;
    -moz-transition: all 0.5s ease-in-out;
    -webkit-transition: all 0.5s ease-in-out;
    -o-transition: all 0.5s ease-in-out;
 }
 
-.logo-footer:hover {
-    color: #ffe007;
+.fab {
+    height: 32px;
+    width: 32px;
+    padding:10px 0;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 15px;
+    line-height:7px;
     text-decoration: none;
+    margin-top: 15px;
+    color: #fff;
+    background-color: #ffe007; 
 }
