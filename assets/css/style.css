@@ -14,6 +14,15 @@
     overflow-y: hidden;
 }
 
+.container-title {
+    font-family: 'Mansalva', sans-serif;
+    text-align: center;
+    font-size: 80px;
+    color: #ffe007;
+}
+
+/*---------backgrounfd image------*/
+
 .container-landing-page {
     height:100vh;
     background: url("../images/blur-chef-cooking-2403392.jpg") no-repeat center fixed;
@@ -26,12 +35,19 @@
     margin-right: 0;
 }
 
-.container-title {
-    font-family: 'Mansalva', sans-serif;
-    text-align: center;
-    font-size: 80px;
-    color: #ffe007;
+.events-bg {
+    height:50vh;
+    background: url("../images/anise-aroma-art-277253.jpg") no-repeat center fixed;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-left: 0;
+    margin-right: 0;
+    
 }
+
 
 /*---------Navbar------*/
 
@@ -91,42 +107,92 @@
     border-radius: .25rem;
 }
 
-/*---------Footer------*/
+/*---------section/events/contact/quotes------*/
 
+.container-event {
+    height: 50vh;
+    background-color: #f6f6f0;
+}
+
+.event-heading {
+    margin-left: 85px;
+    color: #6c7359;
+}
+
+.event-type {
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius:20px;
+    color: #fff;
+    text-align: center;
+    margin-left: 15px;
+    background: url("../images/bar-bottles-catering-1243337.jpg") no-repeat;
+    background-size: cover;
+}
+
+.event-food {
+     margin-left: 140px;
+     color: #6c7359;
+}
+
+.food-type {
+     height: 200px;
+     width: 400px;
+     border: 1px solid black;
+     border-radius:20px;
+     color: #fff;
+     text-align: center;
+     margin-left: 15px;
+     background: url("../images/bar-bottles-catering-1243337.jpg") no-repeat; 
+     background-size: cover;
+}
+
+
+
+/*---------Footer------*/
 
 .container-footer {
     width: 100%;
-    height: 75px;
+    min-height: 75px;
     background-color:#98957f;
-    padding: 0;
+    margin: 0;
 }
 
-.logo-footer-link:hover {
-    color: #ffe007;
-    text-decoration: none;
-}
-
-.logo-footer a {
+.logo-footer {
     font-family: 'Mansalva', sans-serif;
     font-size: 20px;
     color: #fff;
-    margin-left: 50px;
+    text-align: center;
     transition: all 0.5s ease-in-out;
    -moz-transition: all 0.5s ease-in-out;
    -webkit-transition: all 0.5s ease-in-out;
    -o-transition: all 0.5s ease-in-out;
 }
 
+.logo-footer:hover {
+    color: #ffe007;
+    text-decoration: none;
+}
+
 .fab {
     height: 32px;
     width: 32px;
-    padding:10px 0;
+    padding:12px 0;
     border-radius: 50px;
     text-align: center;
     font-size: 15px;
     line-height:7px;
-    text-decoration: none;
-    margin-top: 15px;
+    margin-top: 20px;
     color: #fff;
-    background-color: #ffe007; 
+    background-color: #191a18; 
+    transition: all 0.5s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -webkit-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+}
+
+.fab:hover {
+    color: #ffe007;
+    text-decoration: none;
 }
