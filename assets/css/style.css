@@ -120,16 +120,19 @@
 }
 
 .event-type {
-    height: 200px;
+    height: auto;
     width: 400px;
     border: 1px solid black;
     border-radius:20px;
     color: #fff;
     text-align: center;
-    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 5px;
     background: url("../images/bar-bottles-catering-1243337.jpg") no-repeat;
     background-size: cover;
 }
+
 
 .event-food {
      margin-left: 140px;
@@ -137,14 +140,16 @@
 }
 
 .food-type {
-     height: 200px;
+     height: auto;
      width: 400px;
      border: 1px solid black;
      border-radius:20px;
      color: #fff;
      text-align: center;
-     margin-left: 15px;
-     background: url("../images/bar-bottles-catering-1243337.jpg") no-repeat; 
+     font-size: 20px;
+     font-weight: 500;
+     margin-left: 5px;
+     background: url("../images/pot-cookware.jpg") no-repeat; 
      background-size: cover;
 }
 
@@ -154,7 +159,7 @@
 
 .container-footer {
     width: 100%;
-    min-height: 75px;
+    max-height: 65px;
     background-color:#98957f;
     margin: 0;
 }
