@@ -109,48 +109,52 @@
 
 /*---------section/events/contact/quotes------*/
 
+h2 {
+    text-align: center;
+}
+
 .container-event {
     height: 50vh;
     background-color: #f6f6f0;
 }
 
 .event-heading {
-    margin-left: 85px;
-    color: #6c7359;
+    font-family: 'Mansalva', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    color: #ffe007;
 }
 
 .event-type {
     height: auto;
     width: 400px;
-    border: 1px solid black;
-    border-radius:20px;
-    color: #fff;
+    color: black;
     text-align: center;
     font-size: 20px;
     font-weight: 500;
-    margin-left: 5px;
-    background: url("../images/bar-bottles-catering-1243337.jpg") no-repeat;
-    background-size: cover;
+    margin: 0;
+    padding: 0;
+    
 }
 
 
 .event-food {
-     margin-left: 140px;
-     color: #6c7359;
+    font-family: 'Mansalva', sans-serif;
+    text-align: center;
+    font-weight: 500;
+     color: #ffe007;
 }
 
 .food-type {
      height: auto;
      width: 400px;
-     border: 1px solid black;
-     border-radius:20px;
-     color: #fff;
+     color: black;
      text-align: center;
      font-size: 20px;
      font-weight: 500;
-     margin-left: 5px;
-     background: url("../images/pot-cookware.jpg") no-repeat; 
-     background-size: cover;
+     margin: 0;
+     padding: 0;
+     
 }
 
 
