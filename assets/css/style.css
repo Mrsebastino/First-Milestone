@@ -123,6 +123,7 @@
 
 .event-heading {
     font-family: 'Mansalva', sans-serif;
+    font-size: 30px;
     text-align: center;
     font-weight: 500;
     color: #ffe007;
@@ -137,18 +138,25 @@
     font-weight: 500;
     margin: 0;
     padding: 0;
+}
+
+.event-photo {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    height: auto;
+    display: inline-table;
+    text-align: center;
     
 }
-
-
-.event-food {
-    font-family: 'Mansalva', sans-serif;
-    text-align: center;
-    font-weight: 500;
-     color: #ffe007;
+.square {
+    border: 1px solid black;
 }
 
-
+.square-first {
+    border: 1px solid black;
+    float: right;
+    
+}
 
 
 /*---------Footer------*/
