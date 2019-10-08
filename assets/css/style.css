@@ -10,15 +10,16 @@
 
 .row {
     margin: 0;
-    padding:0;
+    padding: 0;
     overflow-x: hidden;
-    
+
 }
 
 .container-fluid {
     margin: 0;
     padding: 0;
-}
+    height: auto;
+}    
 
 .container-title {
     font-family: 'Mansalva', sans-serif;
@@ -32,7 +33,7 @@
 .container-landing-page {
     padding: 0;
     margin: 0;
-    height:100vh;
+    height: 100vh;
     background: url("../images/blur-chef-cooking-2403392.jpg") no-repeat center fixed;
     background-attachment: scroll;
     -webkit-background-size: cover;
@@ -52,6 +53,17 @@
     background-size: cover;
 }
 
+.quotes-bg {
+    padding: 0;
+    margin: 0;
+    background: url("../images/adult-bar-blur-696218.jpg") no-repeat center fixed;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 
 /*---------Navbar------*/
 
@@ -60,9 +72,9 @@
     font-size: 20px;
     color: #fff;
     transition: all 0.5s ease-in-out;
-   -moz-transition: all 0.5s ease-in-out;
-   -webkit-transition: all 0.5s ease-in-out;
-   -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 .nav-link-logo:hover {
@@ -75,9 +87,9 @@
     font-size: 20px;
     color: #fff;
     transition: all 0.5s ease-in-out;
-   -moz-transition: all 0.5s ease-in-out;
-   -webkit-transition: all 0.5s ease-in-out;
-   -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -88,7 +100,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: #ffe107;
-    
+
 }
 
 .navbar-toggler-icon {
@@ -111,13 +123,12 @@
     border-radius: .25rem;
 }
 
-/*---------section/events/contact/quotes------*/
-
+/*---------events------*/
 
 .container-event {
     margin: 0;
     padding: 0;
-    height: 50vh;
+    height: auto;
     background-color: #f6f6f0;
 }
 
@@ -149,13 +160,27 @@
     border: 1px solid black;
 }
 
+/*---------quotes------*/
+
+.quotes-container {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    height: auto;
+}
+
+.quotes-container-right {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-left: 50%;
+    height: auto;
+}
 
 /*---------Footer------*/
 
 .container-footer {
     position: absolute;
     width: 100%;
-    background-color:#98957f;
+    background-color: #37372F;
 }
 
 .list-inline-item {
@@ -168,9 +193,9 @@
     color: #fff;
     text-align: center;
     transition: all 0.5s ease-in-out;
-   -moz-transition: all 0.5s ease-in-out;
-   -webkit-transition: all 0.5s ease-in-out;
-   -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 .logo-footer:hover {
@@ -181,18 +206,18 @@
 .fab {
     height: 32px;
     width: 32px;
-    padding:12px 0;
+    padding: 12px 0;
     border-radius: 50px;
     text-align: center;
     font-size: 15px;
-    line-height:7px;
+    line-height: 7px;
     margin-top: 20px;
     color: #fff;
-    background-color: #191a18; 
+    background-color: #929290;
     transition: all 0.5s ease-in-out;
-   -moz-transition: all 0.5s ease-in-out;
-   -webkit-transition: all 0.5s ease-in-out;
-   -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 .fab:hover {
