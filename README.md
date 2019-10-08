@@ -23,5 +23,5 @@ css
 Bootstrap v 4.3.1
 </ul>
 
-bug encountered at the moment when i click on the logo in the nav bar it goes from white to orange which is expected but just before it
+bug encountered. At the moment when i click on the logo in the nav bar it goes from white to orange which is expected but just before it
 renew the page(it this the link to the landing page) it goes blue for a few second.
