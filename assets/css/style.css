@@ -80,7 +80,7 @@
 
 .nav-link-logo {
     font-family: 'Mansalva', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color: #fff;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -91,7 +91,6 @@
 .nav-link-logo:hover {
     color: #ffe007;
     text-decoration: none;
-    font-size: 30px;
 }
 
 .nav-link {
@@ -190,6 +189,7 @@
 /*---------contact us------*/
 
 .jumbotron-fluid {
+    padding-top: 5px;
     margin-bottom: 0;
     height: auto;
     background-color: #ffe007f7;
@@ -198,7 +198,7 @@
 .header { 
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    padding-top: 15px;
+    padding-bottom: 20px;
     
 }    
 
@@ -232,6 +232,8 @@
 }
 
 .fab {
+    margin-left:5px;
+    margin-right: 5px;
     height: 32px;
     width: 32px;
     padding: 12px 0;
