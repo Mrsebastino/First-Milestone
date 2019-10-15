@@ -120,7 +120,6 @@
     width: 1.5em;
     height: 1.5em;
     vertical-align: middle;
-    content: "";
     background: no-repeat center center;
     background-size: 100% 100%;
 }
@@ -188,7 +187,14 @@
 
 /*---------contact us------*/
 
-.jumbotron-fluid {
+.contact-container-fluid {
+    background-color: whitesmoke;
+    
+}
+
+.jumbotron{
+    width: 50%;
+    margin: 0 25%;
     padding-top: 5px;
     margin-bottom: 0;
     height: auto;
@@ -199,8 +205,20 @@
     font-family: 'Roboto', sans-serif;
     text-align: center;
     padding-bottom: 20px;
-    
-}    
+}   
+
+.label {
+    display: block;
+}
+
+.form-box {
+    margin: 0 25%;
+}
+
+#event-text-area {
+    margin-top: 0;
+    line-height: 200px;
+}
 
 
 /*---------Footer------*/
@@ -253,4 +271,5 @@
 .fab:hover {
     color: #ffe007;
     text-decoration: none;
+    font-size: 25px;
 }

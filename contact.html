@@ -19,46 +19,57 @@
 <body>
     <header>
         <div class="container-fluid contact-bg">
-                <div class="row ">
-                    <div class="col-sm-4 col-md-6">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="row ">
+                <div class="col-sm-4 col-md-6">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                                <span class="navbar-toggler-icon"></span>
                             </button>
-                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item active">
-                                        <a class="nav-link-logo" href="index.html">Private Chef<br> Ecofffier <span class="sr-only"></span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="events.html">Events</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="quotes.html">Quotes</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="contact.html">Contact Us</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-4 col-md-6">
-                                <p class="container-title"> Private Chef<br> Escoffier</p>
-                            </div>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link-logo" href="index.html">Private Chef<br> Ecofffier <span class="sr-only"></span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="events.html">Events</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="quotes.html">Quotes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-6">
+                            <p class="container-title"> Private Chef<br> Escoffier</p>
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
     </header>
     <section>
-        <div class="jumbotron jumbotron-fluid">
-                <div class="col contact-container">
-                    <h2 class="header">Tell Us What We<br>Can Do for You!</h2>
-                    
-                </div>
+        <div class="col contact-container-fluid">
+            <div class="col jumbotron">
+                <h2 class="header">Tell Us What We<br>Can Do for You!</h2>
+                <form action="post">
+                    <div class="form-box">
+                        <label class="label" for="fname">First Name:</label>
+                        <input style="width: 300px;" id="name" name="fname" type="text" placeholder="First Name">
+                        <label class="label" for="lname">Last Name:</label>
+                        <input style="width: 300px;" id="name" name="lname" type="text" placeholder="Last Name">
+                        <label class="label" for="email">Email:</label>
+                        <input style="width: 300px;" id="email" name="email" type="email" placeholder="Email" checked>
+                        <label class="label" for="event">Type of Event:</label>
+                        <input style="width: 300px;" id="event-text-area" name="event" type="text" placeholder="Tell us what you would like">
+                    </div>
+                </form>
+            </div>
         </div>
 
     </section>
