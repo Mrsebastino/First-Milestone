@@ -55,20 +55,23 @@
     </header>
     <section>
         <div class="col contact-container-fluid">
-            <div class="col jumbotron">
-                <h2 class="header">Tell Us What We<br>Can Do for You!</h2>
-                <form action="post">
-                    <div class="form-box">
-                        <label class="label" for="fname">First Name:</label>
-                        <input style="width: 300px;" id="name" name="fname" type="text" placeholder="First Name">
-                        <label class="label" for="lname">Last Name:</label>
-                        <input style="width: 300px;" id="name" name="lname" type="text" placeholder="Last Name">
-                        <label class="label" for="email">Email:</label>
-                        <input style="width: 300px;" id="email" name="email" type="email" placeholder="Email" checked>
-                        <label class="label" for="event">Type of Event:</label>
-                        <input style="width: 300px;" id="event-text-area" name="event" type="text" placeholder="Tell us what you would like">
-                    </div>
-                </form>
+            <div class="row">
+                <div class="col">
+                    <h2 class="header">Tell Us What We<br>Can Do for You!</h2>
+                    <form action="https://mike.escoffier.com" method="post">
+                        <div class="form-container">
+                            <input id="fname" name="fname" type="text" placeholder="First Name">
+                            <input id="lname" name="lname" type="text" placeholder="Last Name">
+                            <input id="email" name="email" type="email" placeholder="Email"required>
+                            <input id="date" name="date" type="date" placeholder="d/m/y"required>
+                            <textarea name="event" id="event" placeholder="Tell us what you would like" style="height: 150px"required></textarea>
+                        </div>
+                        <div class="button-container">
+                            <input class="btn btn-light" type="submit" value="Submit">
+                            <input class="btn btn-light" type="reset" value="Reset">
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
 
@@ -76,12 +79,12 @@
     <footer>
         <div class="container-fluid container-footer">
             <div class="row">
-                <div class="col-6">
+                <div class="ccol-med-12 col-lg-6">
                     <p class="logo-footer">
                         <a class="logo-footer" href="index.html"><span>Private Chef<br>  Escoffier</span></a>
                     </p>
                 </div>
-                <div class="col-6">
+                <div class="col-med-12 col-lg-6">
                     <ul class="list-inline social-link">
                         <li class="list-inline-item">
                             <a href="www.facebook.com" <i class="fab fa-facebook" aria-hidden="true"></i>

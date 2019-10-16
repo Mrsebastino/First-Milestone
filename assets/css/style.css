@@ -188,36 +188,38 @@
 /*---------contact us------*/
 
 .contact-container-fluid {
-    background-color: whitesmoke;
-    
+    background-color: #ffe007;
 }
 
-.jumbotron{
-    width: 50%;
-    margin: 0 25%;
-    padding-top: 5px;
-    margin-bottom: 0;
-    height: auto;
-    background-color: #ffe007f7;
+.col {
+    padding-left: 15px;
+    padding-right: 20px;
 }
 
 .header { 
     font-family: 'Roboto', sans-serif;
     text-align: center;
     padding-bottom: 20px;
-}   
+} 
 
-.label {
-    display: block;
+form {
+    text-align: center;
+    width: auto;
 }
 
-.form-box {
-    margin: 0 25%;
+.form-container {
+    display: inline-grid;
 }
 
-#event-text-area {
-    margin-top: 0;
-    line-height: 200px;
+.input,#fname,#lname,#email,#date,#event {
+    width: 450px;
+    margin-bottom: 5px;
+}
+
+.button-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 
@@ -272,4 +274,13 @@
     color: #ffe007;
     text-decoration: none;
     font-size: 25px;
+}
+
+@media(max-width: 767px) {
+    .logo-footer {
+        display: none;
+    }
+    .list-inline.social-link {
+        text-align: center;
+    }
 }
