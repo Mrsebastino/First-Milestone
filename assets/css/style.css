@@ -28,6 +28,7 @@
     color: #ffe007;
 }
 
+
 /*---------backgrounfd image------*/
 
 .container-landing-page {
@@ -167,8 +168,15 @@
 }
 
 .square {
-    border: 1px solid black;
+    padding-bottom: 2.5px;
+    padding-top: 2.5px;
 }
+
+.thumbnail:hover {
+    transform: translateZ(500);
+}
+ 
+
 
 /*---------quotes------*/
 
@@ -276,11 +284,24 @@ form {
     font-size: 25px;
 }
 
+/*---------media queries------*/
+
 @media(max-width: 767px) {
     .logo-footer {
         display: none;
     }
     .list-inline.social-link {
         text-align: center;
+    }
+    .quotes-container {
+        display: inline-grid;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .quotes-container-right {
+        display: inline-grid;
+        margin-left: 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 }
