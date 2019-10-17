@@ -25,7 +25,7 @@ the experience of the private chef.
 <li>Chrome Devtools</li>
 </ul>
 
-Bug encountered. At the moment when i click on the logo in the nav bar and in the footer it goes from white to orange which is expected but just before it
+Bug encountered. At the moment when i click on the logo in the nav bar and in the footer it goes from orange to white which is expected but just before it
 refresh the page it goes blue for a few second. None of the other hover animation for events, quotes and contact have that problem.
 
 <h3>Testing</h3>
