@@ -81,6 +81,21 @@
 
 .nav-link-logo {
     font-family: 'Mansalva', sans-serif;
+    font-size: 30px;
+    color: #ffe007;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.nav-link-logo:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-link {
+    font-family: 'Mansalva', sans-serif;
     font-size: 25px;
     color: #fff;
     transition: all 0.5s ease-in-out;
@@ -89,29 +104,14 @@
     -o-transition: all 0.5s ease-in-out;
 }
 
-.nav-link-logo:hover {
-    color: #ffe007;
-    text-decoration: none;
-}
-
-.nav-link {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    color: #fff;
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-}
-
 .navbar-light .navbar-nav .nav-link {
-    color: #fff;
+    color: #ffe007;
     margin-left: 30px;
     padding: 0px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #ffe107;
+    color: #fff;
 
 }
 
@@ -172,9 +172,7 @@
     padding-top: 2.5px;
 }
 
-.thumbnail:hover {
-    transform: translateZ(500);
-}
+
  
 
 
@@ -196,7 +194,7 @@
 /*---------contact us------*/
 
 .contact-container-fluid {
-    background-color: #ffe007;
+    background-color: #ffe007; ;
 }
 
 .col {
@@ -205,23 +203,25 @@
 }
 
 .header { 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Mansalva', sans-serif;
+    font-size: 50px;
     text-align: center;
     padding-bottom: 20px;
 } 
 
 form {
     text-align: center;
-    width: auto;
 }
 
 .form-container {
     display: inline-grid;
 }
 
-.input,#fname,#lname,#email,#date,#event {
+#fname,#lname,#email,#date,#event {
     width: 450px;
     margin-bottom: 5px;
+    margin-top: 5px;
+    color: #000;
 }
 
 .button-container {
@@ -246,7 +246,7 @@ form {
 .logo-footer {
     font-family: 'Mansalva', sans-serif;
     font-size: 20px;
-    color: #fff;
+    color: #ffe007; ;
     text-align: center;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -255,7 +255,7 @@ form {
 }
 
 .logo-footer:hover {
-    color: #ffe007;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -270,7 +270,7 @@ form {
     font-size: 15px;
     line-height: 7px;
     margin-top: 20px;
-    color: #fff;
+    color: #ffe007; ;
     background-color: #929290;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -279,7 +279,7 @@ form {
 }
 
 .fab:hover {
-    color: #ffe007;
+    color: #fff;
     text-decoration: none;
     font-size: 25px;
 }

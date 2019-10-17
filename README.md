@@ -31,12 +31,12 @@ refresh the page it goes blue for a few second. None of the other hover animatio
 <h3>Testing</h3>
 
 I have tested the pages on my mobile and on friends mobile, the site is responsive and i have not encounteredany problem.
-
-1.I have filled the form but not the email, and has expected i was promted to fill the the box.
-2.I have tried the above with all the fields that need filled and every time i had the expexted result of being promtedto fill the box.
-3.I have set up the submit to a non existing website and the response is "mike.escoffier sent an invalid response" which is the expected outcome.
-4.I am confident that the website has been tested and is responsive on mobile and desktop.
-
+<ol>
+I have filled the form but not the email, and has expected i was promted to fill the the box.
+I have tried the above with all the fields that need filled and every time i had the expexted result of being promtedto fill the box.
+I have set up the submit to a non existing website and the response is "mike.escoffier sent an invalid response" which is the expected outcome.
+I am confident that the website has been tested and is responsive on mobile and desktop.
+</ol>
 <h3>Deployment</h3>
 
 I have use GITHUB to deploy the website.
