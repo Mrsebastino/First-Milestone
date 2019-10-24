@@ -63,6 +63,7 @@
 .contact-bg {
     padding: 0;
     margin: 0;
+    height: 70vh;
     background: url("../images/conference-learning-meeting-7095.jpg") no-repeat center fixed;
     background-attachment: scroll;
     -webkit-background-size: cover;
