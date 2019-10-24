@@ -9,7 +9,7 @@
 /*---------Header------*/
 
 .container-fluid {
-    margin: 0;
+    margin: 0 5px;
     padding: 0;
 }    
 
@@ -18,7 +18,7 @@
     font-family: 'Mansalva', sans-serif;
     text-align: center;
     font-size: 80px;
-    color: #ffe007;
+    color: #fff;
 }
 
 
@@ -139,6 +139,7 @@
 
 /*---------events------*/
 
+
 h1 {
     font-size: 60px;
     font-weight: 400;
@@ -177,23 +178,17 @@ h1 {
     font-weight: 500;
 }
 
-.event-photo {
-    padding-bottom: 10px;
-    padding-top: 20px;
-    height: auto;
-    display: inline-block;
-    text-align: center;
+#about-photo {
+    margin-left: 60px;
+    display: inline;
+    padding: 15px;
+    
 }
-
-.square {
-    padding-bottom: 2.5px;
-    padding-top: 2.5px;
-}
-
 
 /*---------quotes------*/
 
 .quotes-container {
+    margin: 0 5px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     height: auto;
@@ -209,7 +204,7 @@ h1 {
 /*---------contact us------*/
 
 .contact-container-fluid {
-    background-color: #ffe007; ;
+    background-color: #fffff; 
 }
 
 .col {
@@ -260,8 +255,8 @@ form {
 
 .logo-footer {
     font-family: 'Mansalva', sans-serif;
-    font-size: 20px;
-    color: #ffe007; ;
+    font-size: 30px;
+    color: #fff; ;
     text-align: center;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -270,23 +265,23 @@ form {
 }
 
 .logo-footer:hover {
-    color: #fff;
+    font-size: 35px;
     text-decoration: none;
+    color: #fff;
 }
 
 .fab {
     margin-left:5px;
     margin-right: 5px;
-    height: 32px;
-    width: 32px;
+    height: 40px;
+    width: 40px;
     padding: 12px 0;
     border-radius: 50px;
     text-align: center;
-    font-size: 15px;
-    line-height: 7px;
+    font-size: 20px;
     margin-top: 20px;
-    color: #ffe007; ;
-    background-color: #929290;
+    color: #fff; ;
+    background-color: #BFBFBB;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -294,9 +289,9 @@ form {
 }
 
 .fab:hover {
-    color: #fff;
+    color: #5f5d5d;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /*---------media queries------*/
