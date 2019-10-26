@@ -6,28 +6,34 @@
     padding: 0;
 }
 
+.row {
+    width: auto;
+    margin: 0;
+}
+
 /*---------Header------*/
 
 .container-fluid {
-    margin: 0 5px;
+    width: auto;
+    margin: 0;
     padding: 0;
 }    
 
-.container-title {
+#container-title {
     padding-top: 50px;
     font-family: 'Mansalva', sans-serif;
     text-align: center;
-    font-size: 80px;
+    font-size: 70px;
     color: #fff;
 }
 
 
 /*---------backgrounfd image------*/
 
-.container-landing-page {
+.landing-page {
     padding: 0;
     margin: 0;
-    height: 100vh;
+    height: 70vh;
     background: url("../images/blur-chef-cooking-2403392.jpg") no-repeat center fixed;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -76,7 +82,7 @@
 /*---------Navbar------*/
 
 .navbar {
-    position: fixed;
+    position: static;
 }
 
 .nav-link-logo {
@@ -125,7 +131,7 @@
     height: 1.5em;
     vertical-align: middle;
     background: no-repeat center center;
-    background-size: 100% 100%;
+    background-size: 100%;
 }
 
 .navbar-toggler {
@@ -181,8 +187,6 @@ h1 {
 #about-photo {
     margin-left: 60px;
     display: inline;
-    padding: 15px;
-    
 }
 
 /*---------quotes------*/
@@ -203,14 +207,15 @@ h1 {
 
 /*---------contact us------*/
 
-.contact-container-fluid {
+.contact-form-section {
     background-color: #fffff; 
+    text-align: center;
 }
 
-.col {
-    padding-left: 15px;
-    padding-right: 20px;
+#contact-form {
+    display: inline-grid;
 }
+
 
 .header { 
     font-family: 'Mansalva', sans-serif;
@@ -219,27 +224,18 @@ h1 {
     padding-bottom: 20px;
 } 
 
-form {
-    text-align: center;
-}
 
-.form-container {
-    display: inline-grid;
-}
-
-#fname,#lname,#email,#date,#event {
+#fname,#lname,#email,#date,#query {
     width: 450px;
     margin-bottom: 5px;
     margin-top: 5px;
     color: #000;
 }
-
-.button-container {
+#button {
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
 }
-
 
 /*---------Footer------*/
 
@@ -313,9 +309,5 @@ form {
         margin-left: 0;
         padding-top: 5px;
         padding-bottom: 5px;
-    }
-    .container-landing-page {
-        height:auto;
-        
     }
 }
