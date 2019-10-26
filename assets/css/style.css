@@ -2,22 +2,11 @@
 
 .body {
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
-.row {
-    width: auto;
-    margin: 0;
-}
 
 /*---------Header------*/
-
-.container-fluid {
-    width: auto;
-    margin: 0;
-    padding: 0;
-}    
+ 
 
 #container-title {
     padding-top: 50px;
@@ -33,7 +22,7 @@
 .landing-page {
     padding: 0;
     margin: 0;
-    height: 70vh;
+    height: 100vh;
     background: url("../images/blur-chef-cooking-2403392.jpg") no-repeat center fixed;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -83,6 +72,7 @@
 
 .navbar {
     position: static;
+    z-index: -1;
 }
 
 .nav-link-logo {
@@ -162,6 +152,7 @@ h1 {
 
 .about-heading {
     font-family: 'Mansalva', sans-serif;
+    margin: auto;
     font-size: 60px;
     text-align: center;
     font-weight: 500;
@@ -215,20 +206,21 @@ h1 {
 } 
 
 .contact-form-section {
-    background-color: #fffff; 
-    text-align: center;
+    background-color: #fffff;
 }
 
 #contact-form {
-    display: inline-grid;
-}
+    text-align: center;
+    padding-left: 40%;
+} 
 
 
 #fname,#lname,#email,#date,#query {
-    width: 450px;
+    width: 300px;
     margin-bottom: 5px;
     margin-top: 5px;
     color: #000;
+   
 }
 #button {
     margin-top: 10px;
@@ -291,7 +283,7 @@ h1 {
 
 /*---------media queries------*/
 
-@media(max-width: 767px) {
+@media( max-width: 767px){
     .logo-footer {
         display: none;
     }
@@ -308,5 +300,17 @@ h1 {
         margin-left: 0;
         padding-top: 5px;
         padding-bottom: 5px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .logo-footer {
+        display: none;
+    }
+    .list-inline.social-link {
+        text-align: center;
+    }
+    .class-square {
+        display: inline;
     }
 }
