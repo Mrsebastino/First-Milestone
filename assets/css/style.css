@@ -207,6 +207,13 @@ h1 {
 
 /*---------contact us------*/
 
+.header { 
+    font-family: 'Mansalva', sans-serif;
+    font-size: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+} 
+
 .contact-form-section {
     background-color: #fffff; 
     text-align: center;
@@ -215,14 +222,6 @@ h1 {
 #contact-form {
     display: inline-grid;
 }
-
-
-.header { 
-    font-family: 'Mansalva', sans-serif;
-    font-size: 50px;
-    text-align: center;
-    padding-bottom: 20px;
-} 
 
 
 #fname,#lname,#email,#date,#query {
