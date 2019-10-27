@@ -202,26 +202,11 @@ h1 {
     font-family: 'Mansalva', sans-serif;
     font-size: 50px;
     padding-bottom: 20px;
-    text-align: center;
 } 
-
-.contact-form-section {
-    background-color: #fffff;
+.contact-form {
+    text-align: center;
 }
 
-#contact-form {
-    text-align: center;
-    padding-left: 40%;
-} 
-
-
-#fname,#lname,#email,#date,#query {
-    width: 300px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    color: #000;
-   
-}
 #button {
     margin-top: 10px;
     margin-bottom: 10px;

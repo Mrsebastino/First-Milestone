@@ -125,32 +125,28 @@
         </div>
     </section-quotes>
 
-    <section-contact class="container-fluid">
+    <section-contact>
         <div id="contact">
             <h1>Contact Us</h1>
         </div>
         <div class="img-fluid contact-bg"></div>
-        <div class="contact-form-section">
+        <div class="container-fluid contact-form">
             <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="contact-form-section header">Tell Us What We<br>Can Do for You!</h2>
+                <h2 class="header text-center">Tell Us What We<br>Can Do for You!</h2>
+            </div>
+            <div class="center-form contact-form text-center">
+                <div class="row">
+                    <form>
+                        <input type="text" id="fname" name="fname" class="form-control" placeholder="First Name" required="">
+                        <input type="text" id="lname" name="lname" class="form-control" placeholder="Last Name" required="">
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Email" required="">
+                        <input type="date" id="date" name="date" class="form-control" placeholder="number" required="">
+                        <textarea rows="5" name="query" id="query" class="form-control" placeholder="What can we do for you" required=""></textarea>
+                    </form>
                 </div>
             </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <form id="contact-form"> 
-                            <input type="text" id="fname" name="fname" class="form-control" placeholder="First Name" required="please enter your name">
-                            <input type="text" id="lname" name="lname" class="form-control" placeholder="Last Name" required>
-                            <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
-                            <input type="date" id="date" name="date" class="form-control" placeholder="dd/m/yyyy" required>
-                            <textarea rows="5" name="query" id="query" placeholder="What can we do for you" required></textarea>
-                            <div id="button">
-                                <input type="submit" value="Submit" class="btn btn-light">
-                            </div>
-                        </form>    
-                    </div>
-                </div>
+            <div id="button">
+                <input type="submit" value="Submit" class="btn btn-light">
             </div>
         </div>
     </section-contact>
@@ -168,13 +164,13 @@
                     <ul class="list-inline social-link">
                         <li class="list-inline-item">
                             <a href="#"></a> <i class="fab fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span></a>
+                            <span class="sr-only">Facebook</span>
                             <a href="#"></a> <i class="fab fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">instagram</span></a>
+                            <span class="sr-only">instagram</span>
                             <a href="#"></a> <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                            <span class="sr-only">LinkedIn</span></a>
+                            <span class="sr-only">LinkedIn</span>
                             <a href="#"></a> <i class="fab fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">twitter</span></a>
+                            <span class="sr-only">twitter</span>
                         </li>
                     </ul>
                 </div>
