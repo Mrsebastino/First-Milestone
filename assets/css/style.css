@@ -180,6 +180,22 @@ h1 {
     display: inline;
 }
 
+.menu-sample {
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.menu-sample:hover{
+    text-decoration: none;
+    color: #2E45EA;
+    font-size: 20px;
+}
+
 /*---------quotes------*/
 
 .quotes-container {
@@ -203,14 +219,15 @@ h1 {
     font-size: 50px;
     padding-bottom: 20px;
 } 
-.contact-form {
-    text-align: center;
+
+.center-form {
+    max-width: 70%;
 }
 
-#button {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
+
+.button-info {
+    padding: 20px 0;
+    
 }
 
 /*---------Footer------*/
