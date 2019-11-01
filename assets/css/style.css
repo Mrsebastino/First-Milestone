@@ -11,7 +11,6 @@
 #container-title {
     padding-top: 50px;
     font-family: 'Mansalva', sans-serif;
-    text-align: center;
     font-size: 70px;
     color: #fff;
 }
@@ -82,7 +81,7 @@
 
 .container-fluid {
     margin: auto;
-    padding: 0;
+    padding: inherit;
 }
 
 /*---------Navbar------*/
@@ -190,10 +189,16 @@ h5 {
 .about-heading {
     font-family: 'Mansalva', sans-serif;
     margin: auto;
+    margin-left: 10px;
     font-size: 60px;
     text-align: center;
     font-weight: 500;
     color: #212529;
+}
+
+p {
+    margin:auto;
+    margin-left: 15px;
 }
 
 .event-heading {
@@ -216,6 +221,8 @@ h5 {
 #about-photo {
     margin-left: 60px;
     display: inline;
+    vertical-align: middle;
+    
 }
 
 .menu-sample {
@@ -333,14 +340,25 @@ h5 {
     }
     .quotes-container {
         display: inline-grid;
+        margin-left: 10px;
         padding-top: 5px;
         padding-bottom: 5px;
     }
     .quotes-container-right {
         display: inline-grid;
-        margin-left: 5px;
+        margin-left: 10px;
         padding-top: 5px;
         padding-bottom: 5px;
+    }
+  
+  
+    
+    .square {
+        margin-right: 15px;
+    }
+    
+    .square-two {
+        margin-left: 60px;
     }
 }
 
@@ -351,7 +369,7 @@ h5 {
     .list-inline.social-link {
         text-align: center;
     }
-    .class-square {
+    .square {
         display: inline;
     }
 }
