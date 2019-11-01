@@ -21,7 +21,7 @@
 
 .landing-page {
     padding: 0;
-    margin: 0;
+    margin: auto;
     height: 100vh;
     background: url("../images/blur-chef-cooking-2403392.jpg") no-repeat center fixed;
     background-attachment: fixed;
@@ -31,9 +31,22 @@
     background-size: cover;
 }
 
+.landing-page-menu {
+    padding: 0;
+    margin: auto;
+    height: 70vh;
+    background: url("../images/blur-chef-cooking-2403392.jpg") no-repeat center fixed;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
 .events-bg {
     padding: 0;
-    margin: 0;
+    margin: auto;
     height: 70vh;
     background: url("../images/anise-aroma-art-277253.jpg") no-repeat center fixed;
     background-attachment: scroll;
@@ -45,7 +58,7 @@
 
 .quotes-bg {
     padding: 0;
-    margin: 0;
+    margin: auto;
     height:70vh;
     background: url("../images/adult-bar-blur-696218.jpg") no-repeat center fixed;
     background-attachment: scroll;
@@ -57,7 +70,7 @@
 
 .contact-bg {
     padding: 0;
-    margin: 0;
+    margin: auto;
     height: 70vh;
     background: url("../images/conference-learning-meeting-7095.jpg") no-repeat center fixed;
     background-attachment: scroll;
@@ -67,10 +80,15 @@
     background-size: cover;
 }
 
+.container-fluid {
+    margin: auto;
+    padding: 0;
+}
 
 /*---------Navbar------*/
 
 .navbar {
+    margin:auto;
     position: static;
     z-index: -1;
 }
@@ -137,11 +155,30 @@
 
 
 h1 {
+    text-align: center;
     font-size: 60px;
     font-weight: 400;
     font-family: 'Mansalva', sans-serif;
     padding-left: 30px;
     
+}
+
+h3 {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+h4 {
+   font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px; 
+}
+
+h5 {
+   font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;  
 }
 
 .container-event {
@@ -168,7 +205,8 @@ h1 {
 }
 
 .event-information {
-    height: auto;
+    margin: 0;
+    padding-left: 10px;
     color: black;
     text-align: center;
     font-size: 20px;
@@ -184,7 +222,6 @@ h1 {
     text-decoration: none;
     font-size:15px;
     font-weight: 500;
-    background-color: yellow;
     text-transform: uppercase;
     color: #948b5e;
     transition: all 0.5s ease-in-out;
@@ -198,6 +235,14 @@ h1 {
     color: #2E45EA;
     font-size: 20px;
 }
+
+.container-event-menu {
+    background-color: #f3f691;
+    vertical-align: middle;
+    margin: 25px auto;
+    border: 1px solid black;
+}
+
 
 /*---------quotes------*/
 
@@ -227,6 +272,7 @@ h1 {
 /*---------Footer------*/
 
 #footer {
+    margin-top: 15px;
     width: 100%;
     background-color: #37372F;
 }
@@ -292,7 +338,7 @@ h1 {
     }
     .quotes-container-right {
         display: inline-grid;
-        margin-left: 0;
+        margin-left: 5px;
         padding-top: 5px;
         padding-bottom: 5px;
     }
@@ -307,5 +353,10 @@ h1 {
     }
     .class-square {
         display: inline;
+    }
+}
+@media (min-width: 991px) {
+    .container-event-menu {
+        width: 700px;
     }
 }
