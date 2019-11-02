@@ -2,6 +2,7 @@
 
 .body {
     font-family: 'Roboto', sans-serif;
+    overflow-y: hidden;
 }
 
 
@@ -227,7 +228,7 @@ p {
 
 .menu-sample {
     text-decoration: none;
-    font-size:15px;
+    font-size:20px;
     font-weight: 500;
     text-transform: uppercase;
     color: #948b5e;
@@ -240,7 +241,6 @@ p {
 .menu-sample:hover{
     text-decoration: none;
     color: #2E45EA;
-    font-size: 20px;
 }
 
 .container-event-menu {
@@ -275,6 +275,9 @@ p {
     padding-bottom: 20px;
 } 
 
+.btn-info {
+    margin-top: 10px;
+}
 
 /*---------Footer------*/
 
