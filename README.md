@@ -1,6 +1,6 @@
 <h1> Private Chef Escoffier</h1>
 
-<h3> First Milesotne. User Centic Frontend Development. Code Institute.</h3>
+<h3> First Milestone. User Centic Frontend Development. Code Institute.</h3>
  This is a website that promote an imaginary chef organising private event.<br>
 The website include a description of the chef study and work experience,<br>
 example of dishes with photos, imaginary quotes and a contact form.
@@ -20,14 +20,14 @@ the experience of the private chef. I used a handwriting font to give it a more 
 </ul>
 
 <h3> Features</h3>
- The Navbar at the top is taken from Bootstrap, i have made adjustemnt. The animation on the tiltle is from animate.css.
+ The Navbar  is taken from Bootstrap, i have made some adjusment to it. The animation on the tiltle is from animate.css.
  In the footer i've added a link to the top of the page and social media link. I removed the top of the page link in the footer for the  
- mobile and moved the social icon to the center.
- In the contact section, i used a  contact form and a button submit form from Bootstraps, i have customised both the form and the button.
+ mobile version and moved the social icon to the center.
+ In the contact section, i used a  contact form and a button submit form from Bootstraps, i have customised the form and left the button as it is.
 
 I had an horizontal overflow,
 Bug encountered. At the moment when i click on the logo in the nav bar and in the footer it goes from orange to white which is expected but just before it
-refresh the page it goes blue for a few second. None of the other hover animation for events, quotes and contact have that problem. The bugs were fixed
+refresh the page it goes blue for a few second. None of the other hover animation for events, quotes and contact had that problem. The bugs were fixed
 by asking on Slack, Googling and using devtools.
 
 <h3>Testing</h3>
