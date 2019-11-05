@@ -63,6 +63,7 @@
 .quotes-bg {
     padding: 0;
     margin: 0;
+    margin-bottom: 25px;
     height:70vh;
     background: url("../images/adult-bar-blur-696218.jpg") no-repeat center fixed;
     background-attachment: scroll;
@@ -155,6 +156,7 @@
 
 
 h1 {
+    margin-top: 60px;
     text-align: center;
     font-size: 60px;
     font-weight: 400;
@@ -189,7 +191,7 @@ h5 {
 
 .about-heading {
     font-family: 'Mansalva', sans-serif;
-    margin: auto;
+    margin-top: 50px;
     margin-left: 10px;
     font-size: 60px;
     text-align: center;
@@ -198,13 +200,14 @@ h5 {
 }
 
 p {
-    margin:auto;
+    margin-bottom: 20px;
     margin-left: 15px;
 }
 
 .event-heading {
     font-family: 'Mansalva', sans-serif;
     font-size: 60px;
+    margin-top: 25px;
     text-align: center;
     font-weight: 500;
     color: #212529;
@@ -254,6 +257,7 @@ p {
 /*---------quotes------*/
 
 .quotes-container {
+    margin-top: 25px;
     margin: 0 5px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -261,6 +265,7 @@ p {
 }
 
 .quotes-container-right {
+    margin-top: 25px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     margin-left: 50%;
@@ -340,6 +345,7 @@ p {
 
 @media( max-width: 767px){
     
+    
     .logo-footer {
         display: none;
     }
@@ -361,18 +367,18 @@ p {
   
    
     .square {
-        overflow: auto;
+        width: 300px;
+        height: auto;
         margin-right: 15px;
     }
     
     .square-two {
-        overflow: auto;
+        width: 300px;
+        height: auto;
         margin-left: 60px;
     }
 }
     
-}
-
 @media (min-width: 768px) and (max-width: 991px){
     .logo-footer {
         display: none;
