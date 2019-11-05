@@ -35,17 +35,17 @@
     background-size: cover;
 }
 
-.landing-page-menu {
+/*---.menu-bg {
     padding: 0;
     margin: 0;
     height: 70vh;
-    background: url("../images/blur-chef-cooking-2403392.jpg") no-repeat center fixed;
+    background: url("../images/) no-repeat center fixed;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+}---*/
 
 
 .events-bg {
@@ -275,6 +275,10 @@ p {
     padding-bottom: 20px;
 } 
 
+.form-control {
+    margin-top: 10px;
+}
+
 .btn-info {
     margin-top: 10px;
 }
@@ -355,15 +359,18 @@ p {
         padding-bottom: 5px;
     }
   
-  
-    
+   
     .square {
+        overflow: auto;
         margin-right: 15px;
     }
     
     .square-two {
+        overflow: auto;
         margin-left: 60px;
     }
+}
+    
 }
 
 @media (min-width: 768px) and (max-width: 991px){
