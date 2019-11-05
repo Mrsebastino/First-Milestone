@@ -28,10 +28,12 @@ For the customer the websites will increase his business by showing how adaptabl
  mobile version and moved the social icon to the center.
  In the contact section, i used a  contact form and a button submit form from Bootstraps, i have customised the form and left the button as it is.
 
-I had an horizontal overflow,
-Bug encountered. At the moment when i click on the logo in the nav bar and in the footer it goes from orange to white which is expected but just before it
-refresh the page it goes blue for a few second. None of the other hover animation for events, quotes and contact had that problem. The bugs were fixed
-by asking on Slack, Googling and using devtools.
+Bug encountered.
+I have an horizontal overflow, and when i tried to fix it by adjusting |container-fluid| it affect the mobile version. I have look using node removal 
+in chrome devtools and couldn't find anything.
+ At one stage when i clicked on the logo in the nav bar and in the footer it went from orange to white which was expected but just before it
+refresh the page it went blue for a few second. None of the other hover animation for events, quotes and contact had that problem. That particular bug was
+fixed by changing the colors all toghther, It is now white and the text enlarge when hovered.
 
 <h3>Testing</h3>
 
