@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Mansalva:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500|Mansalva:300,400,500');
 
 .body {
     font-family: 'Roboto', sans-serif;
-    overflow-y: hidden;
 }
 
 
@@ -19,9 +18,14 @@
 
 /*---------backgrounfd image------*/
 
+.container-fluid {
+     margin: auto;
+     padding: inherit;
+ }
+
 .landing-page {
     padding: 0;
-    margin: auto;
+    margin:  auto;
     height: 100vh;
     background: url("../images/blur-chef-cooking-2403392.jpg") no-repeat center fixed;
     background-attachment: fixed;
@@ -33,7 +37,7 @@
 
 .landing-page-menu {
     padding: 0;
-    margin: auto;
+    margin: 0;
     height: 70vh;
     background: url("../images/blur-chef-cooking-2403392.jpg") no-repeat center fixed;
     background-attachment: fixed;
@@ -46,7 +50,7 @@
 
 .events-bg {
     padding: 0;
-    margin: auto;
+    margin: 0;
     height: 70vh;
     background: url("../images/anise-aroma-art-277253.jpg") no-repeat center fixed;
     background-attachment: scroll;
@@ -58,7 +62,7 @@
 
 .quotes-bg {
     padding: 0;
-    margin: auto;
+    margin: 0;
     height:70vh;
     background: url("../images/adult-bar-blur-696218.jpg") no-repeat center fixed;
     background-attachment: scroll;
@@ -70,7 +74,7 @@
 
 .contact-bg {
     padding: 0;
-    margin: auto;
+    margin: 0;
     height: 70vh;
     background: url("../images/conference-learning-meeting-7095.jpg") no-repeat center fixed;
     background-attachment: scroll;
@@ -79,11 +83,7 @@
     -o-background-size: cover;
     background-size: cover;
 }
-
-.container-fluid {
-    margin: auto;
-    padding: inherit;
-}
+ 
 
 /*---------Navbar------*/
 
@@ -335,6 +335,7 @@ p {
 /*---------media queries------*/
 
 @media( max-width: 767px){
+    
     .logo-footer {
         display: none;
     }
