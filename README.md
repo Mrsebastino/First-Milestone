@@ -10,7 +10,10 @@ A live demo can be found at GitHub.  https://mrsebastino.github.io/First-Milesto
 
 <h3>UX/UI</h3>
 My intent with this website is to make it simple to use, attractive and showcase<br>
-the experience of the private chef. I used a handwriting font to give it a more personal and artistic touch.
+the experience of the private chef. I used a handwriting font to give it a more personal and artistic touch, so that the user feel they can have a more 
+service than with others.
+<h3></h3>
+For the customer the websites will increase his business by showing how adaptable he can be.
 
 <h3>Technologies Used</h3>
 <ul>
