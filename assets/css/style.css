@@ -6,7 +6,7 @@
 
 
 /*---------Header------*/
- 
+
 
 #container-title {
     padding-top: 50px;
@@ -25,7 +25,7 @@
 
 .landing-page {
     padding: 0;
-    margin:  auto;
+    margin:  0;
     height: 100vh;
     background: url("../images/blur-chef-cooking-2403392.jpg") no-repeat center fixed;
     background-attachment: fixed;
@@ -35,17 +35,17 @@
     background-size: cover;
 }
 
-/*---.menu-bg {
+.menu-bg {
     padding: 0;
     margin: 0;
     height: 70vh;
-    background: url("../images/) no-repeat center fixed;
+    background: url("../images/close-up-of-menu-313700.jpg") no-repeat center fixed;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}---*/
+}
 
 
 .events-bg {
@@ -53,7 +53,7 @@
     margin: 0;
     height: 70vh;
     background: url("../images/anise-aroma-art-277253.jpg") no-repeat center fixed;
-    background-attachment: scroll;
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -66,7 +66,7 @@
     margin-bottom: 25px;
     height:70vh;
     background: url("../images/adult-bar-blur-696218.jpg") no-repeat center fixed;
-    background-attachment: scroll;
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -78,13 +78,13 @@
     margin: 0;
     height: 70vh;
     background: url("../images/conference-learning-meeting-7095.jpg") no-repeat center fixed;
-    background-attachment: scroll;
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
- 
+
 
 /*---------Navbar------*/
 
@@ -108,7 +108,7 @@
     color: #fff;
     font-size: 30px;
     text-decoration: none;
-    
+
 }
 
 .nav-link {
@@ -129,7 +129,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: #fff;
-    font-size: 30px; 
+    font-size: 30px;
 
 }
 
@@ -162,7 +162,7 @@ h1 {
     font-weight: 400;
     font-family: 'Mansalva', sans-serif;
     padding-left: 30px;
-    
+
 }
 
 h3 {
@@ -174,13 +174,13 @@ h3 {
 h4 {
    font-weight: 300;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px; 
+    font-size: 20px;
 }
 
 h5 {
    font-weight: 300;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;  
+    font-size: 20px;
 }
 
 .container-event {
@@ -226,7 +226,7 @@ p {
     margin-left: 60px;
     display: inline;
     vertical-align: middle;
-    
+
 }
 
 .menu-sample {
@@ -274,11 +274,11 @@ p {
 
 /*---------contact us------*/
 
-.header { 
+.header {
     font-family: 'Mansalva', sans-serif;
     font-size: 50px;
     padding-bottom: 20px;
-} 
+}
 
 .form-control {
     margin-top: 10px;
@@ -344,8 +344,8 @@ p {
 /*---------media queries------*/
 
 @media( max-width: 767px){
-    
-    
+
+
     .logo-footer {
         display: none;
     }
@@ -364,21 +364,21 @@ p {
         padding-top: 5px;
         padding-bottom: 5px;
     }
-  
-   
+
+
     .square {
         width: 300px;
         height: auto;
         margin-right: 15px;
     }
-    
+
     .square-two {
         width: 300px;
         height: auto;
         margin-left: 60px;
     }
 }
-    
+
 @media (min-width: 768px) and (max-width: 991px){
     .logo-footer {
         display: none;
