@@ -3,7 +3,7 @@
 <h3> First Milestone. User Centic Frontend Development. Code Institute.</h3>
  This is a website that promote an imaginary chef organising private event.
 The website include a description of the chef study and work experience,
-example of dishes with photos, imaginary quotes and a contact form.
+example of dishes with photos, imaginary quotes, a contact form and a menu.
 
 <h3> Demo </h3>
 A live demo can be found at GitHub.  https://mrsebastino.github.io/First-Milestone/
@@ -11,9 +11,9 @@ A live demo can be found at GitHub.  https://mrsebastino.github.io/First-Milesto
 <h3>UX/UI</h3>
 My intent with this website is to make it simple to use, attractive and showcase<br>
 the experience of the private chef. I used a handwriting font to give it a more personal and artistic touch, so that the user feel they can have a more
-service than with others.
+service.
 <h3></h3>
-For the customer the websites will increase his business by showing how adaptable he can be.
+For the customer the website will increase his business by showing how adaptable he can be.
 
 <h3>Technologies Used</h3>
 <ul>
@@ -24,12 +24,12 @@ For the customer the websites will increase his business by showing how adaptabl
 
 <h3> Features</h3>
  The Navbar  is taken from Bootstrap, i have made some adjusment to it. The animation on the tiltle is from animate.css.
- In the footer i've added a link to the top of the page and social media link. I removed the top of the page link in the footer for the
+ In the footer i've added a link to the top of the page and some social media link. I removed the top of the page link in the footer for the
  mobile version and moved the social icon to the center.
- In the contact section, i used a  contact form and a button submit form from Bootstraps, i have customised the form and left the button as it is.
+ In the contact section, i used a  contact form and a button submit form from Bootstraps.
 
 Bug encountered.
-I have an horizontal overflow, and when i tried to fix it by adjusting |container-fluid| it affect the mobile version. I have look using node removal
+I have an horizontal overflow, and when i tried to fix it by adjusting |container-fluid| it affected the mobile version. I have look using node removal
 in chrome devtools and couldn't find anything.
  At one stage when i clicked on the logo in the nav bar and in the footer it went from orange to white which was expected but just before it
 refresh the page it went blue for a few second. None of the other hover animation for events, quotes and contact had that problem. That particular bug was
