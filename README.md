@@ -1,8 +1,8 @@
 <h1> Private Chef Escoffier</h1>
 
 <h3> First Milestone. User Centic Frontend Development. Code Institute.</h3>
- This is a website that promote an imaginary chef organising private event.<br>
-The website include a description of the chef study and work experience,<br>
+ This is a website that promote an imaginary chef organising private event.
+The website include a description of the chef study and work experience,
 example of dishes with photos, imaginary quotes and a contact form.
 
 <h3> Demo </h3>
@@ -57,11 +57,11 @@ All the content is writtne by me. Escoffier is a surname of a famous French Chef
 
 <h4>Media</h4>
 
-Most of the photos are taken from Pexels, one photo is mine, and two photos is from Google,
+Most of the photos are taken from Pexels, one photo is mine, and two photos are from Google,
 The icon in the page tab was created with favicon, after somebody recomended it on Slack.
 
 <h4>Acknowledgements</h4>
 
 I have took inspiration from two Code Institute mini project, the Bootstrap project and Resume project.
-I made adjustment to the contact form and the navbar form, i removed some unwanted items.
+I made adjustment to the contact form and the navbar form, the contact form is part from bootstrap and helps form a slack mentor.
 

@@ -19,7 +19,7 @@
 /*---------backgrounfd image------*/
 
 .container-fluid {
-     margin: auto;
+     margin: 0;
      padding: inherit;
  }
 
