@@ -13,7 +13,7 @@ My intent with this website is to make it simple to use, attractive and showcase
 the experience of the private chef. I used a handwriting font to give it a more personal and artistic touch, so that the user feel they can have a more
 service.
 <h3></h3>
-For the customer the website will increase his business by showing how adaptable he can be.
+For the customer the website will increase his business, create word of mouth and attract more customer.
 
 <h3>Technologies Used</h3>
 <ul>
@@ -30,10 +30,11 @@ For the customer the website will increase his business by showing how adaptable
 
 Bug encountered.
 I have an horizontal overflow, and when i tried to fix it by adjusting |container-fluid| it affected the mobile version. I have look using node removal
-in chrome devtools and couldn't find anything.
+in chrome devtools and couldn't find anything. In the end it was a problem with `row` so i override it. not sure if this
+qualified as a bug.
  At one stage when i clicked on the logo in the nav bar and in the footer it went from orange to white which was expected but just before it
-refresh the page it went blue for a few second. None of the other hover animation for events, quotes and contact had that problem. That particular bug was
-fixed by changing the colors all toghther, It is now white and the text enlarge when hovered.
+refresh the page it went blue for a few second. None of the other hover animation for events, quotes and contact had that problem. That was
+fixed by changing the colors all toghether, It is now white and the text enlarge when hovered.
 
 <h3>Testing</h3>
 
@@ -41,7 +42,7 @@ I have tested the pages on my mobile and on friends mobile, the site is responsi
 
 I have filled the contact form but not the email, and has expected i was promted to fill the the box.
 I have tried the above with all the fields that need filled and every time i had the expexted result of being promted to fill the box.
-I have set up the submit to a non existing website and the response is "mike.escoffier sent an invalid response" which is the expected outcome.
+I have set up the submit button to a fake email address  and the response is "mike.escoffier sent an invalid response" which is the expected outcome.
 I am confident that the website has been tested and is responsive on mobile and desktop.
 
 <h3>Deployment</h3>

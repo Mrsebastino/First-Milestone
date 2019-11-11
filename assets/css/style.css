@@ -224,7 +224,6 @@ p {
 }
 
 #about-photo {
-    margin-left: 60px;
     display: inline;
     vertical-align: middle;
 
@@ -344,7 +343,6 @@ p {
 /*---------media queries------*/
 
 @media( max-width: 767px){
-
 
     .logo-footer {
         display: none;
