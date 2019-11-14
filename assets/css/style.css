@@ -331,6 +331,7 @@ p {
 
 .fab:hover {
     text-decoration: none;
+    background-color: #A7A7A1;
 }
 
 /*---------media queries------*/
