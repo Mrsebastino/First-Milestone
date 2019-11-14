@@ -294,7 +294,6 @@ p {
 
 .list-inline-item {
     display: inline-table;
-    text-decoration: none;
 }
 
 .logo-footer {
@@ -331,8 +330,6 @@ p {
 }
 
 .fab:hover {
-    color: #5f5d5d;
-    font-size: 20px;
     text-decoration: none;
 }
 
