@@ -34,7 +34,7 @@ For the customer the website will increase his business, create word of mouth an
 
 Bug encountered.
 I had an horizontal overflow, and when i tried to fix it by adjusting |container-fluid| it affected the mobile version. I have look using node removal
-in chrome devtools and couldn't find anything. In the end it was a problem with `row` so i override it in CSS not sure if this
+in chrome devtools and couldn't find anything, in the end it was a problem with `row` so i override it in CSS not sure if this
 qualified as a bug.
  At one stage when i clicked on the logo in the nav bar and in the footer it went from orange to white which was expected but just before it
 refresh the page it went blue for a few second. None of the other hover animation for events, quotes and contact had that problem. That was
@@ -43,12 +43,13 @@ fixed by changing the colors all toghether, It is now white and the text enlarge
 <h3>Testing</h3>
 
 I have tested the pages on my mobile and on friends mobile, the site is responsive. I also check with the devtools in Google Chrome.
-I have tested it on laptop and PC, on 4k there was issue with conttent spreading too much.
+I have tested it on laptop and PC, on 4k there was issue with conttent spreading too much. It has been fixed by making sure that the content remain centered.
 
 I have filled the contact form but not the email, and has expected i was promted to fill the the box.
 I have tried the above with all the fields that need filled and every time i had the expexted result of being promted to fill the box.
 I have set up the submit button to a fake email address  and the response is "mike.escoffier sent an invalid response" which is the expected outcome.
 I am confident that the website has been tested and is responsive on mobile and desktop.
+it has been tested in google chrome, safari IOS and safari MAC IOS, Mac book pro and 4k, the webiste is responsive across all platform.
 
 <h3>Deployment</h3>
 
