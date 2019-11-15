@@ -70,4 +70,5 @@ The icon in the page tab was created with favicon, after somebody recomended it 
 
 I have took inspiration from two Code Institute mini project, the Bootstrap project and Resume project.
 I made adjustment to the contact form and the navbar form, the contact form is part from bootstrap and helps form a slack mentor.
+My mentor and Slack were both great help throughout my project.
 
