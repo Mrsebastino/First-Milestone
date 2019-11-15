@@ -20,6 +20,10 @@ For the customer the website will increase his business, create word of mouth an
 <li>html  </li>
 <li>css </li>
 <li>Bootstrap v 4.3.1</li>
+<li>Font Awsome</li>
+<li>Google Font</li>
+<li>JQuery</li>
+<li>POpper.js</li>
 </ul>
 
 <h3> Features</h3>
@@ -29,8 +33,8 @@ For the customer the website will increase his business, create word of mouth an
  In the contact section, i used a  contact form and a button submit form from Bootstraps.
 
 Bug encountered.
-I have an horizontal overflow, and when i tried to fix it by adjusting |container-fluid| it affected the mobile version. I have look using node removal
-in chrome devtools and couldn't find anything. In the end it was a problem with `row` so i override it. not sure if this
+I had an horizontal overflow, and when i tried to fix it by adjusting |container-fluid| it affected the mobile version. I have look using node removal
+in chrome devtools and couldn't find anything. In the end it was a problem with `row` so i override it in CSS not sure if this
 qualified as a bug.
  At one stage when i clicked on the logo in the nav bar and in the footer it went from orange to white which was expected but just before it
 refresh the page it went blue for a few second. None of the other hover animation for events, quotes and contact had that problem. That was
@@ -38,7 +42,8 @@ fixed by changing the colors all toghether, It is now white and the text enlarge
 
 <h3>Testing</h3>
 
-I have tested the pages on my mobile and on friends mobile, the site is responsive on Samsung devices and Huawei. I also check with the devtools in Google Chrome
+I have tested the pages on my mobile and on friends mobile, the site is responsive. I also check with the devtools in Google Chrome.
+I have tested it on laptop and PC, on 4k there was issue with conttent spreading too much.
 
 I have filled the contact form but not the email, and has expected i was promted to fill the the box.
 I have tried the above with all the fields that need filled and every time i had the expexted result of being promted to fill the box.
