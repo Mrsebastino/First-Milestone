@@ -6,7 +6,7 @@ The website include a description of the chef study and work experience,
 example of dishes with photos, imaginary quotes, a contact form and a menu.
 
 ### Demo 
-[Private Chef](https://mrsebastino.github.io/First-Milestone/)
+[Private Chef](https://mrsebastino.github.io/Private-Chef/)
 
 ### UX/UI
 My intent with this website is to make it simple to use, attractive and showcase
