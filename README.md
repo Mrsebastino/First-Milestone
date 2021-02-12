@@ -15,7 +15,6 @@ service.
 
 For the customer the website will increase his business, create word of mouth and attract more customer.
 ### Technologies Used
-* 
 * html
 * css 
 * Bootstrap v 4.3.1
